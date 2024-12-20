@@ -1,0 +1,9 @@
+get: receive information about an API resource(retrive)
+post: creat an API resource(sending)
+put: update an AIP resource(update)
+delete: delete an AIP resource(delete)
+
+- có async thì ko cần chờ mà có thể xử lý, liên quan đến I/O.
+    nếu sử dụng GPU/CPU nhiều thì phải dùng def
+    fastapi có thể tự hiểu lúc nào dùng CPU
+
